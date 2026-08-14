@@ -1,0 +1,16 @@
+{
+  "name": "shipping-service",
+  "version": "1.0.0",
+  "description": "Simulates shipment scheduling with intentionally variable latency.",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}
